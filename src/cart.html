@@ -143,32 +143,36 @@
           <h2 class="visually-hidden">Итоговая стоимость заказа.</h2>
           <ul class="result__table">
             <li class="result__line result__line--top">
-              <span>Итого</span>
-              <span>41 222 ₽</span>
+              <span class="result__text result__text--price">Итого</span>
+              <span class="result__text result__text--price">41 222 ₽</span>
             </li>
             <li class="result__line">
-              <span>Товары, 3 шт.</span>
-              <span>41 222 ₽</span>
+              <span class="result__text">Товары, 3 шт.</span>
+              <span class="result__text">41 222 ₽</span>
             </li>
             <li class="result__line">
-              <span>Скидка</span>
-              <span>0 ₽</span>
+              <span class="result__text">Скидка</span>
+              <span class="result__text">0 ₽</span>
             </li>
             <li class="result__line">
-              <span>Доставка</span>
-              <span>0 ₽</span>
+              <span class="result__text">Доставка</span>
+              <span class="result__text">0 ₽</span>
             </li>
             <li class="result__line">
-              <span>Дата</span>
-              <span>01 - 03 июля</span>
+              <span class="result__text result__text--bold">Дата</span>
+              <span class="result__text result__text--bold">01 - 03 июля</span>
             </li>
             <li class="result__line">
-              <span>Оплата</span>
-              <span>Картой</span>
+              <span class="result__text result__text--bold">Оплата</span>
+              <span class="result__text result__text--bold">Картой</span>
             </li>
           </ul>
-          <div class="">
-            <button class="result__agreement" type></button>
+          <div class="result__line result__line--agree">
+            <button class="result__submit" type="button">Оформить заказ</button>
+            <label class="result__agreement">
+              <input type="checkbox" name="cart-agree">
+              Согласен с <a class="result__policy" href="#">условиями</a> правил пользования торговой площадкой и правилами возврата
+            </label>
           </div>
         </section>
       </div>
