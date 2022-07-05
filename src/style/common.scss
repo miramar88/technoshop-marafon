@@ -12,9 +12,12 @@ html {
 body {
   min-width: 320px;
   min-height: 100vh;
+  margin: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 18px;
+  color: $primary-color;
+  background-color: $secondary-color;
 }
 
 ul {
@@ -49,6 +52,17 @@ a {
 }
 
 .container {
-  max-width: 1920px;
-  padding: 50px;
+  max-width: 1880px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.main {
+  padding-top: 44px;
+  padding-bottom: 120px;
 }
