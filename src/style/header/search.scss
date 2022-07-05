@@ -1,0 +1,26 @@
+.search {
+  width: 100%;
+  max-width: 818px;
+  position: relative;
+}
+
+.search__input {
+  width: 100%;
+  min-height: 50px;
+  padding: 15px 24px;
+  padding-right: 55px;
+  border: 1px solid $tertiary-color-light;
+  border-radius: 16px;
+}
+
+.search__button {
+  width: 24px;
+  height: 24px;
+  top: 45%;
+  right: 26px;
+  transform: translateY(-50%);
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  line-height: 0;
+}
