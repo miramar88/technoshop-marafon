@@ -1,0 +1,114 @@
+.filter {
+  width: 340px;
+}
+
+.filter__form {
+  position: relative;
+}
+
+.filter__title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.filter__group-wrapper {
+  margin-bottom: 40px;
+}
+
+.filter__group {
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.filter__subtitle {
+  padding: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.filter__inner {
+  display: flex;
+  justify-content: space-between;
+
+  &--column {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+.filter__input {
+  width: 165px;
+  min-height: 38px;
+  padding: 9px 107px 9px 10px;
+  border: 1px solid $primary-color;
+
+  &::placeholder {
+    font-size: 16px;
+    line-height: 20px;
+    color: $tertiary-color;
+  }
+}
+
+.filter__select {
+  width: 100%;
+  min-height: 38px;
+  font: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  color: $tertiary-color;
+  border: 1px solid $primary-color;
+}
+
+.filter__checkbox-group {
+  display: flex;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.filter__checkbox {
+  margin: 0;
+  border-radius: 0;
+}
+
+.filter__color-name {
+  display: block;
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.filter__submit {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 20px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  color: $secondary-color;
+  background-color: $primary-color;
+}
+
+.filter__reset {
+  display: block;
+  width: 113px;
+  padding: 5px 4px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: $tertiary-color;
+  border: none;
+  background-color: transparent;
+}

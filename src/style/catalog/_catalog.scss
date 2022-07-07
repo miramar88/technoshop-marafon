@@ -1,0 +1,10 @@
+.catalog__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.catalog__inner {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 72px 30px;
+}

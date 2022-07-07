@@ -145,34 +145,69 @@
           <aside class="catalog__filter filter">
             <form class="filter__form">
               <h3 class="filter__title">Фильтры</h3>
-              <fieldset class="filter__group">
-                <legend class="filter__subtitle">Цена</legend>
-                <div class="filter__inner">
-                  <label><input class="filter__input" name="min-price" placeholder="от" type="number"></label>
-                  <label><input class="filter__input" name="max-price" placeholder="до" type="number"></label>
-                </div>
-              </fieldset>
-              <fieldset class="filter__group">
-                <legend class="filter__subtitle">Категория</legend>
-                <select name="category" class="filter__select">
-                  <option value="" selected>все категории</option>
-                  <option value="phone">Смартфоны</option>
-                  <option value="tablet">Планшеты</option>
-                  <option value="clock">Умные часы</option>
-                  <option value="monoblock">Моноблоки</option>
-                  <option value="notebook">Ноутбуки</option>
-                </select>
-              </fieldset>
-              <fieldset class="filter__group">
-                <legend class="filter__subtitle">Диагональ</legend>
-                <div class="filter__inner">
-                  <label><input class="filter__input" name="min-value" placeholder="от" type="number"></label>
-                  <label><input class="filter__input" name="max-value" placeholder="до" type="number"></label>
-                </div>
-              </fieldset>
+              <div class="filter__group-wrapper">
+                <fieldset class="filter__group">
+                  <legend class="filter__subtitle">Цена</legend>
+                  <div class="filter__inner">
+                    <label><input class="filter__input" name="min-price" placeholder="от" type="number"></label>
+                    <label><input class="filter__input" name="max-price" placeholder="до" type="number"></label>
+                  </div>
+                </fieldset>
+                <fieldset class="filter__group">
+                  <legend class="filter__subtitle">Категория</legend>
+                  <select name="category" class="filter__select">
+                    <option value="" selected>все категории</option>
+                    <option value="phone">Смартфоны</option>
+                    <option value="tablet">Планшеты</option>
+                    <option value="clock">Умные часы</option>
+                    <option value="monoblock">Моноблоки</option>
+                    <option value="notebook">Ноутбуки</option>
+                  </select>
+                </fieldset>
+                <fieldset class="filter__group">
+                  <legend class="filter__subtitle">Диагональ</legend>
+                  <div class="filter__inner">
+                    <label><input class="filter__input" name="min-value" placeholder="от" type="number"></label>
+                    <label><input class="filter__input" name="max-value" placeholder="до" type="number"></label>
+                  </div>
+                </fieldset>
+                <fieldset class="filter__group">
+                  <legend class="filter__subtitle">Цвет</legend>
+                  <div class="filter__inner filter__inner--column">
+                    <label class="filter__checkbox-group">
+                      <input class="filter__checkbox" name="color[]" value="white" type="checkbox">
+                      <span class="filter__color-name">Белый</span>
+                    </label>
+                    <label class="filter__checkbox-group">
+                      <input class="filter__checkbox" name="color[]" value="black" type="checkbox">
+                      <span class="filter__color-name">Черный</span>
+                    </label>
+                    <label class="filter__checkbox-group">
+                      <input class="filter__checkbox" name="color[]" value="silver" type="checkbox" checked>
+                      <span class="filter__color-name">Серебристый</span>
+                    </label>
+                    <label class="filter__checkbox-group">
+                      <input class="filter__checkbox" name="color[]" value="red" type="checkbox">
+                      <span class="filter__color-name">Красный</span>
+                    </label>
+                    <label class="filter__checkbox-group">
+                      <input class="filter__checkbox" name="color[]" value="green" type="checkbox" checked>
+                      <span class="filter__color-name">Зеленый</span>
+                    </label>
+                    <label class="filter__checkbox-group">
+                      <input class="filter__checkbox" name="color[]" value="gold" type="checkbox">
+                      <span class="filter__color-name">Золотой</span>
+                    </label>
+                  </div>
+                </fieldset>
+              </div>
+              <button class="filter__submit" type="submit">Применить фильтр</button>
+              <button class="filter__reset" type="reset">Очистить все</button>
             </form>
           </aside>
-          <div class="catalog__pagination"></div>
+          <div class="catalog__pagination">
+
+          </div>
         </div>
       </div>
     </section>
