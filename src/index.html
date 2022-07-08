@@ -206,10 +206,12 @@
             </form>
           </aside>
           <div class="catalog__pagination pagination">
+            <button class="pagination__button pagination__button--prev pagination__button--disabled">
+              <svg class="pagination__arrow" width="10" height="16" viewBox="0 0 10 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.09198 2.49205L3.59598 8.00005L9.09198 13.508L7.39998 15.2L0.19998 8.00005L7.39998 0.800049L9.09198 2.49205Z"/>
+              </svg>
+            </button>
             <ul class="pagination__list">
-              <li class="pagination__item">
-                <button class="pagination__button pagination__button--prev"></button>
-              </li>
               <li class="pagination__item">
                 <a class="pagination__link" href="#">1</a>
               </li>
@@ -228,10 +230,12 @@
               <li class="pagination__item">
                 <a class="pagination__link" href="#">6</a>
               </li>
-              <li class="pagination__item">
-                <button class="pagination__button pagination__button--next"></button>
-              </li>
             </ul>
+            <button class="pagination__button pagination__button--next">
+              <svg width="10" height="16" viewBox="0 0 10 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.90802 2.49205L6.40402 8.00005L0.90802 13.508L2.60002 15.2L9.80002 8.00005L2.60002 0.800049L0.90802 2.49205Z"/>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
@@ -328,7 +332,12 @@
           </li>
         </ul>
       </div>
-      <div class="footer__copyright"></div>
+      <p class="footer__copyright">
+        © TechnoSHOP, 2022
+      </p>
+      <p class="footer__dev">
+        Design by Anastasia Ilina <span>Tg:<a href="#">@Mrshmallowww</a></span>
+      </p>
     </div>
   </footer>
   <section class="modal modal--sucsess">

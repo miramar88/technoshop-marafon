@@ -8,3 +8,7 @@
   grid-template-columns: 4fr 1fr;
   gap: 72px 30px;
 }
+
+.catalog__pagination {
+  grid-column: 1/-1;
+}

@@ -8,7 +8,8 @@
   padding-bottom: 81px;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr 1fr;
-  gap: 30px;
+  grid-template-rows: auto auto;
+  gap: 51px 30px;
 }
 
 .footer__title {
@@ -56,3 +57,21 @@
     color: $accent-color;
   }
 }
+
+.footer__copyright {
+  grid-column: 1/2;
+  grid-row: 2/-1;
+  margin: 0;
+}
+
+.footer__dev {
+  grid-column: -1/-2;
+  grid-row: 2/-1;
+  margin: 0;
+
+  span {
+    display: block;
+    margin-top: 10px;
+  }
+}
+

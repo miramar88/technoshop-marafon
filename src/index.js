@@ -3,8 +3,9 @@ import "./cart.html";
 import "./card.html";
 import "./index.scss";
 
-import Swiper, {Thumbs} from 'swiper';
+import Swiper, {Thumbs, Navigation} from 'swiper';
 import 'swiper/css';
+import 'swiper/css/navigation';
 
 const thumbSwiper = new Swiper(".card__preview", {
   spaceBetween: 44,
@@ -22,5 +23,10 @@ new Swiper(".card__photo", {
 
 new Swiper(".recommend__carousel", {
   spaceBetween: 30,
-  slidesPerView: 5
+  slidesPerView: 5,
+  modules: [Navigation],
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 });
