@@ -1,0 +1,20 @@
+.recommend {
+
+}
+
+.recommend__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+}
+
+.recommend__button {
+  background-color: transparent;
+  border: none;
+
+  &::after {
+    color: $accent-color;
+  }
+}

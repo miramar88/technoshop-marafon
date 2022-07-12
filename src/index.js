@@ -9,11 +9,10 @@ import 'swiper/css/navigation';
 
 const thumbSwiper = new Swiper(".card__preview", {
   spaceBetween: 44,
-  slidesPerView: 5
+  slidesPerView: 3
 }); 
 
 new Swiper(".card__photo", {
-  spaceBetween: 10,
   slidesPerView: 1,
   thumbs: {
     swiper: thumbSwiper,

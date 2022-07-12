@@ -1,0 +1,12 @@
+.count-control__button {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  line-height: 1;
+  border: 1px solid $primary-color;
+  border-radius: 50%;
+  background-color: transparent;
+}

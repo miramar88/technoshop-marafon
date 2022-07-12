@@ -23,6 +23,7 @@
 
   &--disabled {
     color: $tertiary-color-light;
+    pointer-events: none;
   }
 }
 
