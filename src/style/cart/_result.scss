@@ -1,0 +1,70 @@
+.result__inner {
+  padding: 40px 20px;
+  border: 1px solid $tertiary-color-light;
+  border-radius: 20px;
+}
+
+.result__table {
+  margin: 0;
+}
+
+.result__line {
+  padding: 0 10px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 22px;
+
+  &--top {
+    padding-bottom: 9px;
+    margin-bottom: 7px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    border-bottom: 1px solid $tertiary-color-light;
+  }
+
+  &--agree {
+    margin-top: 20px;
+  }
+
+  &:nth-child(4) {
+    margin-bottom: 20px;
+  }
+}
+
+.result__submit {
+  width: 352px;
+  height: 57px;
+  margin-right: 17px;
+  flex: none;
+  border: 1px solid $accent-color;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  background-color: $accent-color;
+  color: $secondary-color;
+}
+
+.result__agreement {
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  p {
+    margin: 0;
+  }
+}
+
+.result__checkbox {
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.result__text--bold {
+  font-weight: 500;
+}

@@ -1,0 +1,23 @@
+.cart-goods__title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+}
+
+.cart-goods__list {
+  margin: 0;
+}
+
+.cart-goods__item {
+  margin-bottom: 30px;
+  padding-right: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

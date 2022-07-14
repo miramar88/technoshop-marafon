@@ -1,0 +1,9 @@
+.cart__container {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 70px 30px;
+}
+
+.cart__result {
+  padding-top: 94px;
+}
